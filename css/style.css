@@ -186,7 +186,12 @@ h1{
     transform: skewX(-8deg);
     z-index: 111;
 }
-
+@media screen and (max-width: 768px) {
+    .image-container::before,
+    .sec-container .image-container::before {
+        display: none;
+    }
+}
 .image-container img {
     position: relative;
     z-index: 22;
