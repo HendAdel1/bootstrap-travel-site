@@ -46,11 +46,31 @@
         <form class="d-flex">
           <input class="form-control me-2 border-primary" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-primary me-2" type="submit">Search</button>
-          <button class="btn btn-primary" type="submit">Login</button>
+          <button class="btn btn-primary" id="loginButton" type="submit">Login</button>
         </form>
       </div>
     </div>
   </nav>
+
+<!-- Login Form Pop-up -->
+<div id="loginForm" class="login-form">
+  <h2>Login</h2>
+  <form>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control mb-3" id="email" placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control mb-3" id="password" placeholder="Enter your password">
+    </div>
+    <div class="d-flex justify-content-between">
+      <button type="submit" class="btn btn-primary">Login</button>
+      <button type="button" id="closeButton" class="btn btn-secondary">Close</button>
+    </div>
+    
+  </form>
+</div>
   <!-- End Navbar -->
 
   <!-- Strart icons -->

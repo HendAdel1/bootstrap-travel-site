@@ -24,3 +24,16 @@ document.getElementById("copyBtn3").addEventListener("click", function(e) {
     alert("Text copied!");
     return false; 
 });
+
+document.getElementById('loginButton').addEventListener('click', function() {
+    document.getElementById('loginForm').style.display = 'block';
+  });
+  
+  document.addEventListener('click', function(event) {
+    var loginForm = document.getElementById('loginForm');
+    var loginButton = document.getElementById('loginButton');
+  
+    if (event.target !== loginForm && event.target !== loginButton) {
+      loginForm.style.display = 'none';
+    }
+  });
