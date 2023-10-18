@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+:root{
+    --main-color: #296374;
+    --bg-color: #c3cfce;
+}
+
+body{
+    background-color: #F8F9FA;
+}
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0000001f;
+}
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    z-index: 99999;
+}
+
+.social-icons a {
+    margin-bottom: 10px;
+    width: 60px;
+    font-size: 25px;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+
+
+.carousel-part {
+    position: relative;
+    height: 100vh;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    z-index: 3;
+}
+
+h1{
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Koulen', cursive;
+}
+
+.bg-main{
+    background-color: var(--main-color);
+}
+
+.bg-back{
+    background-color: var(--bg-color);
+}
+
+.fixed-image {
+    position: fixed;
+}
+
+.bg-scroll{
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    height: 35vh;
+    background-attachment: fixed;
+    position: relative;
+}
+.bg-scroll2{
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    height: 35vh;
+    background-attachment: fixed;
+    position: relative;
+}
+.card-img-top {
+    height: 500px; 
+    object-fit: cover; 
+}
+
+
+.thanks-part .card {
+    position: relative;
+}
+
+.thanks-part .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(64, 67, 68, 0.792), rgba(64, 67, 68, 0.792)), url('../Images/h.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.thanks-part h4{
+    z-index: 1000;
+}
+
+.thanks-part  .card-body {
+    padding: 1.5rem;
+    position: relative;
+    z-index: 1000;
+}
+
+.thanks-part .card-img-bottom {
+    /* position: absolute;
+    bottom: -50px;
+    left: 30%;
+    transform: translateX(-50%); */
+    border-radius: 50%;
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #d1cfcf;
+    z-index: 999;
+}
+
+.news-part img{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover; 
+}
+
+.news-part .card-body{
+    padding-left:50px;
+    padding-top: 45px;
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    transform: skewX(8deg);
+    z-index: 111;
+}
+.sec-container .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 290px;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    transform: skewX(-8deg);
+    z-index: 111;
+}
+
+.image-container img {
+    position: relative;
+    z-index: 22;
+}
+.news-part .container{
+    border-radius: 10px;
+    box-shadow: -10px 10px 40px rgba(198, 127, 198, 0.728);
+}
+
+.join-part i{
+    font-size: 100px;
+}
+.shadow-custom{
+    border-radius: 10px;
+    box-shadow: -1px 1px 40px rgba(198, 127, 198, 0.728);
+}
+
+/* ///////////////////////////// */
+.dest-part .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.dest-part .card::before,
+.dest-part  .card::after {
+    content: "";
+    position: absolute;
+    background-color: #72d3fd47;
+    opacity: 0;
+    z-index: 99999;
+    transition: opacity 0.3s;
+}
+
+.dest-part .card::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate(-100%, -100%);
+}
+
+.dest-part  .card::after {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate(100%, 100%);
+}
+
+.dest-part .card:hover::before,
+.dest-part  .card:hover::after {
+    opacity: 1;
+}
+.dest-part .card:hover::before {
+    animation: slide-top-left 0.7s forwards;
+}
+
+.dest-part .card:hover::after {
+    animation: slide-bottom-right 0.7s forwards;
+}
+
+@keyframes slide-top-left {
+    0% {
+        transform: translate(-100%, -100%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes slide-bottom-right {
+    0% {
+        transform: translate(100%, 100%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

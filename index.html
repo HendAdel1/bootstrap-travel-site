@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-all.min.css" crossorigin="anonymous" />    
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid px-5 py-2">
+      <a class="navbar-brand" href="#"><img src="Images/pyramids.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white fs-5" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fs-5" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Trips
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Cairo</a></li>
+              <li><a class="dropdown-item" href="#">Alex</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Luxor</a></li>
+              <li><a class="dropdown-item" href="#">Aswan</a></li>
+              <li><a class="dropdown-item" href="#">El Glala</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white fs-5" href="#" tabindex="-1">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 border-primary" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary me-2" type="submit">Search</button>
+          <button class="btn btn-primary" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Strart icons -->
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+  <!-- End icons -->
+  <!-- Start Carousel -->
+  <div class="carousel-part">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/4.jpg" class="d-block w-100" alt="...">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Cairo</h1>
+              <p class="text-black fs-4">We had such a great time in Egypt</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Visit Us</a></p>
+            </div>
+          </div>
+            
+        </div>
+        <div class="carousel-item">
+          <img src="Images/3.jpg" class="d-block w-100" alt="...">
+
+          <div class="container">
+            <div class="carousel-caption text-center">
+              <h1>Cairo</h1>
+              <p class="text-black fs-4">We had such a great time in Egypt</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Visit Us</a></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <img src="Images/2.jpg" class="d-block w-100" alt="...">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Cairo</h1>
+              <p class="text-black fs-4">We had such a great time in Egypt</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Visit Us</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- Start welcome part -->
+  <div class="container-fluid bg-light">
+    <div class="container py-5">
+      <div class="text-start">
+        <h1>Welcome</h1>
+        <p class="text-black fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, fugit corporis. Dolore consequatur assumenda adipisci mollitia natus. Totam, rerum enim, ipsa debitis qui sapiente quidem aliquid cum error quas nostrum.</p>
+        <p><a class="btn btn-lg btn-outline-primary" href="#">Learn more</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- End welcome part -->
+
+  <!-- Start destintaions -->
+  <div class="container-fluid">
+    <div class="row py-5 bg-main my-3">
+      <h2 class="fs-1 text-white text-center">Popular destinations in Egypt</h2>
+    </div>
+    <div class="row">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Giza City
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Pyramids, Sphinx, Ancient, Egypt, Pharaohs, Archaeology, Tourist, Wonder, History, Iconic.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Luxor City
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Aswan, a city in southern Egypt, is a captivating destination known for its rich history.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Aswan City
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Luxor, a captivating city in Egypt, is a treasure trove of ancient wonders.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End destintaions -->
+
+  <hr>
+
+  <!-- Start translate -->
+  <div class="container-fluid bg-back">
+    <div class="row py-5 bg-main">
+      <h2 class="fs-1 text-white text-center">Translate From Arabic to English</h2>
+    </div>
+    <div class="container">
+      <div class="row py-5">
+        <div class="text-start">
+          <h4 class="text-white">Write and Translate <span class="text-black">Press Here</span></h4>
+          <p><a class="btn btn-lg btn-primary" href="#" id="copyBtn">copy</a></p>
+          <textarea class="form-control" id="exampleTextArea" rows="4" placeholder="Translate:"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End translate -->
+
+  <hr>
+
+  <!-- Start translate -->
+  <div class="container-fluid bg-back">
+    <div class="row py-5 bg-main">
+      <h2 class="fs-1 text-white text-center">Translate From Arabic to French</h2>
+    </div>
+    <div class="container">
+      <div class="row py-5">
+        <div class="text-start">
+          <h4 class="text-white">Write and Translate <span class="text-black">Press Here</span></h4>
+          <p><a class="btn btn-lg btn-primary" href="#" id="copyBtn2">copy</a></p>
+          <textarea class="form-control" id="exampleTextArea2" rows="4" placeholder="Translate:"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End translate -->
+
+  <hr>
+
+  <!-- Start translate -->
+  <div class="container-fluid bg-back">
+    <div class="row py-5 bg-main">
+      <h2 class="fs-1 text-white text-center">Translate From Arabic to German</h2>
+    </div>
+    <div class="container">
+      <div class="row py-5">
+        <div class="text-start">
+          <h4 class="text-white">Write and Translate <span class="text-black">Press Here</span></h4>
+          <p><a class="btn btn-lg btn-primary" href="#" id="copyBtn3">copy</a></p>
+          <textarea class="form-control" id="exampleTextArea3" rows="4" placeholder="Translate:"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End translate -->
+
+
+  <!-- Start bg -->
+  <div class="container-fluid bg-scroll">
+  </div>
+  <!-- End bg -->
+
+
+    <!-- Start destintaions -->
+    <div class="container-fluid dest-part">
+      <div class="row py-5 bg-main my-3">
+        <h2 class="fs-1 text-white text-center">Popular destinations in Egypt</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+              <img src="Images/a.jpg" class="card-img-top" alt="Card Image 1">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h5 class="card-title">Giza</h5>
+                  <button class="btn btn-primary">view more</button>
+                </div>
+                <p class="card-text">beautiful in egypt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+              <img src="Images/aswan.jpg" class="card-img-top" alt="Card Image 2">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h5 class="card-title">Aswan</h5>
+                  <button class="btn btn-primary">view more</button>
+                </div>
+                <p class="card-text">beautiful in egypt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+              <img src="Images/luxor.jpg" class="card-img-top" alt="Card Image 3">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h5 class="card-title">Luxor</h5>
+                  <button class="btn btn-primary">view more</button>
+                </div>
+                <p class="card-text">beautiful in egypt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+              <img src="Images/newc.jpg" class="card-img-top" alt="Card Image 4">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h5 class="card-title">New Capital</h5>
+                  <button class="btn btn-primary">view more</button>
+                </div>
+                <p class="card-text">beautiful in egypt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+              <img src="Images/b.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h5 class="card-title">Giza</h5>
+                  <button class="btn btn-primary">view more</button>
+                </div>
+                <p class="card-text">beautiful in egypt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+              <img src="Images/dahab.jpg" class="card-img-top" alt="Card Image 6">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h5 class="card-title">Dahab</h5>
+                  <button class="btn btn-primary">view more</button>
+                </div>
+                <p class="card-text">beautiful in egypt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End destintaions -->
+
+  <!-- Start bg -->
+  <div class="container-fluid bg-scroll2">
+  </div>
+  <!-- End bg -->
+
+  <hr>
+
+    <!-- Start thanks -->
+    <div class="container-fluid thanks-part">
+      <div class="row py-5 bg-main my-3">
+        <h2 class="fs-1 text-white text-center">Thanks For</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+    
+              <div class="card-body">
+                <h4 class="text-white">All Thanks and Appreciation</h4>
+                <p class="mb-5 text-white">All Thanks and Appreciation</p>
+
+                  <img src="Images/h.jpg" class="card-img-bottom mt-5 mb-1" alt="Oval Image">
+                  <h5 class="card-title text-white">Emg: Hend Adel</h5>
+                  <p class="card-text text-white">Front End Web Developer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+    
+              <div class="card-body">
+                <h4 class="text-white">All Thanks and Appreciation</h4>
+                <p class="mb-5 text-white">All Thanks and Appreciation</p>
+
+                  <img src="Images/h.jpg" class="card-img-bottom mt-5 mb-1" alt="Oval Image">
+                  <h5 class="card-title text-white">Emg: Hend Adel</h5>
+                  <p class="card-text text-white">Front End Web Developer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card mb-4 h-100">
+    
+              <div class="card-body">
+                <h4 class="text-white">All Thanks and Appreciation</h4>
+                <p class="mb-5 text-white">All Thanks and Appreciation</p>
+
+                  <img src="Images/h.jpg" class="card-img-bottom mt-5 mb-1" alt="Oval Image">
+                  <h5 class="card-title text-white">Emg: Hend Adel</h5>
+                  <p class="card-text text-white">Front End Web Developer</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End thanks -->
+  
+  <hr>
+
+    <!-- Start news -->
+    <div class="container-fluid bg-light news-part">
+      <div class="row py-5 bg-light">
+        <h2 class="fs-1 text-center">Egypt News</h2>
+      </div>
+      <div class="container mb-5 px-0">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h3 class="card-title fs-1">Podcast Title</h3>
+                  <p class="card-text">This</p>
+                  <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum non in rerum, optio pariatur iste itaque. Vel labore alias ipsum odit, sint quo voluptatibus temporibus omnis odio, tenetur nemo dolore.
+                  Veniam, facere. Omnis dignissimos aspernatur provident voluptates perferendis praesentium, reiciendis velit saepe deserunt natus? Fugiat dolor perferendis ducimus similique, quaerat magnam magni, pariatur ab quo error commodi quasi veniam
+                  </p>
+                  <div class="d-flex align-items-end">
+                    <p><a class="btn btn-secondary" href="#">Podcast</a></p>
+                    <p><a class="btn btn-secondary mx-2" href="#">55 mins</a></p>
+                    <p><a class="btn btn-secondary" href="#">play Episode</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="image-container">
+                  <img src="Images/a.jpg" class="img-fluid rounded-end" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container mb-5 sec-container px-0">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <div class="image-container">
+                <img src="Images/b.jpg" class="img-fluid rounded-end" alt="...">
+              </div>
+            </div>
+
+            <div class="col-md-9">
+              <div class="card-body">
+                <h3 class="card-title fs-1">Podcast Title</h3>
+                <p class="card-text">This</p>
+                <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum non in rerum, optio pariatur iste itaque. Vel labore alias ipsum odit, sint quo voluptatibus temporibus omnis odio, tenetur nemo dolore.
+                Veniam, facere. Omnis dignissimos aspernatur provident voluptates perferendis praesentium, reiciendis velit saepe deserunt natus? Fugiat dolor perferendis ducimus similique, quaerat magnam magni, pariatur ab quo error commodi quasi veniam
+                </p>
+                <div class="d-flex align-items-end">
+                  <p><a class="btn btn-secondary" href="#">Podcast</a></p>
+                  <p><a class="btn btn-secondary mx-2" href="#">55 mins</a></p>
+                  <p><a class="btn btn-secondary" href="#">play Episode</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container mb-5 px-0">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-9">
+            <div class="card-body">
+              <h3 class="card-title fs-1">Podcast Title</h3>
+              <p class="card-text">This</p>
+              <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum non in rerum, optio pariatur iste itaque. Vel labore alias ipsum odit, sint quo voluptatibus temporibus omnis odio, tenetur nemo dolore.
+              Veniam, facere. Omnis dignissimos aspernatur provident voluptates perferendis praesentium, reiciendis velit saepe deserunt natus? Fugiat dolor perferendis ducimus similique, quaerat magnam magni, pariatur ab quo error commodi quasi veniam
+              </p>
+              <div class="d-flex align-items-end">
+                <p><a class="btn btn-secondary" href="#">Podcast</a></p>
+                <p><a class="btn btn-secondary mx-2" href="#">55 mins</a></p>
+                <p><a class="btn btn-secondary" href="#">play Episode</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="image-container">
+              <img src="Images/luxor.jpg" class="img-fluid rounded-end" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5 sec-container px-0">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <div class="image-container">
+              <img src="Images/c.jpg" class="img-fluid rounded-end" alt="...">
+            </div>
+          </div>
+
+          <div class="col-md-9">
+            <div class="card-body">
+              <h3 class="card-title fs-1">Podcast Title</h3>
+              <p class="card-text">This</p>
+              <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum non in rerum, optio pariatur iste itaque. Vel labore alias ipsum odit, sint quo voluptatibus temporibus omnis odio, tenetur nemo dolore.
+              Veniam, facere. Omnis dignissimos aspernatur provident voluptates perferendis praesentium, reiciendis velit saepe deserunt natus? Fugiat dolor perferendis ducimus similique, quaerat magnam magni, pariatur ab quo error commodi quasi veniam
+              </p>
+              <div class="d-flex align-items-end">
+                <p><a class="btn btn-secondary" href="#">Podcast</a></p>
+                <p><a class="btn btn-secondary mx-2" href="#">55 mins</a></p>
+                <p><a class="btn btn-secondary" href="#">play Episode</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container mb-5 px-0">
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-9">
+          <div class="card-body">
+            <h3 class="card-title fs-1">Podcast Title</h3>
+            <p class="card-text">This</p>
+            <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum non in rerum, optio pariatur iste itaque. Vel labore alias ipsum odit, sint quo voluptatibus temporibus omnis odio, tenetur nemo dolore.
+            Veniam, facere. Omnis dignissimos aspernatur provident voluptates perferendis praesentium, reiciendis velit saepe deserunt natus? Fugiat dolor perferendis ducimus similique, quaerat magnam magni, pariatur ab quo error commodi quasi veniam
+            </p>
+            <div class="d-flex align-items-end">
+              <p><a class="btn btn-secondary" href="#">Podcast</a></p>
+              <p><a class="btn btn-secondary mx-2" href="#">55 mins</a></p>
+              <p><a class="btn btn-secondary" href="#">play Episode</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="image-container">
+            <img src="Images/d.jpg" class="img-fluid rounded-end" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5 sec-container px-0">
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-3">
+          <div class="image-container">
+            <img src="Images/dahab.jpg" class="img-fluid rounded-end" alt="...">
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="card-body">
+            <h3 class="card-title fs-1">Podcast Title</h3>
+            <p class="card-text">This</p>
+            <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum non in rerum, optio pariatur iste itaque. Vel labore alias ipsum odit, sint quo voluptatibus temporibus omnis odio, tenetur nemo dolore.
+            Veniam, facere. Omnis dignissimos aspernatur provident voluptates perferendis praesentium, reiciendis velit saepe deserunt natus? Fugiat dolor perferendis ducimus similique, quaerat magnam magni, pariatur ab quo error commodi quasi veniam
+            </p>
+            <div class="d-flex align-items-end">
+              <p><a class="btn btn-secondary" href="#">Podcast</a></p>
+              <p><a class="btn btn-secondary mx-2" href="#">55 mins</a></p>
+              <p><a class="btn btn-secondary" href="#">play Episode</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- End news -->
+
+
+  <!-- Start join -->
+  <div class="container-fluid join-part mb-5">
+    <div class="row py-5 my-3">
+      <h2 class="fs-1 text-center">Join us</h2>
+    </div>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-2 bg-light text-center py-4 shadow-custom">
+          <h3>Subscribe Now</h3>
+          <i class="fab fa-twitter-square" style="color: #64bde3;"></i>
+          <h4>Go to link</h4>
+        </div>
+        <div class="col-md-2 bg-light text-center py-4 shadow-custom">
+          <h3>Subscribe Now</h3>
+          <i class="fab fa-whatsapp-square" style="color: #57db6d;"></i>
+          <h4>Go to link</h4>
+        </div>
+        <div class="col-md-2 bg-light text-center py-4 shadow-custom">
+          <h3>Subscribe Now</h3>
+          <i class="fab fa-linkedin" style="color: #3a69bb;"></i>
+          <h4>Go to link</h4>
+        </div>
+        <div class="col-md-2 bg-light text-center py-4 shadow-custom">
+          <h3>Subscribe Now</h3>
+          <i class="fab fa-instagram-square" style="color: #bd4cb9;"></i>
+          <h4>Go to link</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End join -->
+
+  <!-- Start footer -->
+  <footer>
+    <div class="container-fluid bg-main">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-4 text-center text-white">
+            <img class="me-3" src="Images/pyramids.png" alt="">
+            <span class="fs-4">Good Company</span>
+            <p>Tel : 000-000-000</p>
+            <p>Address : EGYPT</p>
+          </div>
+          <div class="col-md-4 text-center text-white">
+            <img class="me-3" src="Images/pyramids.png" alt="">
+            <span class="fs-4">Good Company</span>
+            <p>Tel : 000-000-000</p>
+            <p>Address : EGYPT</p>
+          </div>
+          <div class="col-md-4 text-center text-white">
+            <img class="me-3" src="Images/pyramids.png" alt="">
+            <span class="fs-4">Good Company</span>
+            <p>Tel : 000-000-000</p>
+            <p>Address : EGYPT</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer -->
+
+
+
+
+    <script  src="js/script.js"></script>
+
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
