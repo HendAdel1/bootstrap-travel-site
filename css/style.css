@@ -307,3 +307,22 @@ h1{
 .news-part .brdr-color6{
     border-bottom: 5px solid rgb(210, 22, 91);
 }
+.last-btn1:hover{
+    background-color: rgb(57, 120, 174);
+}
+.last-btn12:hover{
+    background-color: rgb(222, 80, 20);
+}
+.last-btn3:hover{
+    background-color: rgb(98, 174, 57);
+}
+.last-btn4:hover{
+    background-color: rgb(207, 210, 28);
+}
+.last-btn5:hover{
+    background-color: rgb(174, 57, 57);
+}
+.last-btn6:hover{
+    background-color: rgb(210, 22, 91);
+}
+
